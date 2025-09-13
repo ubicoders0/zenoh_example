@@ -1,0 +1,1802 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.19+164abd434 for .NET Framework
+      Build started 9/13/2025 3:37:51 PM.
+      
+      Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.02
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Users/hylee/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/cmds/lld-link.com"
+      - "C:/cmds/lld-link.exe"
+      - "C:/cmds/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "E:/manim/lld-link.com"
+      - "E:/manim/lld-link.exe"
+      - "E:/manim/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Users/hylee/.cargo/bin/lld-link.com"
+      - "C:/Users/hylee/.cargo/bin/lld-link.exe"
+      - "C:/Users/hylee/.cargo/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/lld-link.com"
+      - "C:/Users/hylee/anaconda3/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/lld-link"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/Library/bin/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Library/bin/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Library/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/Scripts/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Scripts/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Scripts/lld-link"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
+      - "C:/tools/TinyTeX/bin/windows/lld-link.com"
+      - "C:/tools/TinyTeX/bin/windows/lld-link.exe"
+      - "C:/tools/TinyTeX/bin/windows/lld-link"
+      - "C:/Users/hylee/.dotnet/tools/lld-link.com"
+      - "C:/Users/hylee/.dotnet/tools/lld-link.exe"
+      - "C:/Users/hylee/.dotnet/tools/lld-link"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Users/hylee/AppData/Local/nvm/mt.com"
+      - "C:/Users/hylee/AppData/Local/nvm/mt.exe"
+      - "C:/Users/hylee/AppData/Local/nvm/mt"
+      - "C:/nvm4w/nodejs/mt.com"
+      - "C:/nvm4w/nodejs/mt.exe"
+      - "C:/nvm4w/nodejs/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/cmds/mt.com"
+      - "C:/cmds/mt.exe"
+      - "C:/cmds/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "E:/manim/mt.com"
+      - "E:/manim/mt.exe"
+      - "E:/manim/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/PowerShell/7/mt.com"
+      - "C:/Program Files/PowerShell/7/mt.exe"
+      - "C:/Program Files/PowerShell/7/mt"
+      - "C:/Users/hylee/.cargo/bin/mt.com"
+      - "C:/Users/hylee/.cargo/bin/mt.exe"
+      - "C:/Users/hylee/.cargo/bin/mt"
+      - "C:/Users/hylee/anaconda3/mt.com"
+      - "C:/Users/hylee/anaconda3/mt.exe"
+      - "C:/Users/hylee/anaconda3/mt"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/mt.com"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/mt.exe"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/mt"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/mt.com"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/mt.exe"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/mt"
+      - "C:/Users/hylee/anaconda3/Library/bin/mt.com"
+      - "C:/Users/hylee/anaconda3/Library/bin/mt.exe"
+      - "C:/Users/hylee/anaconda3/Library/bin/mt"
+      - "C:/Users/hylee/anaconda3/Scripts/mt.com"
+      - "C:/Users/hylee/anaconda3/Scripts/mt.exe"
+      - "C:/Users/hylee/anaconda3/Scripts/mt"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.com"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt"
+      - "C:/tools/TinyTeX/bin/windows/mt.com"
+      - "C:/tools/TinyTeX/bin/windows/mt.exe"
+      - "C:/tools/TinyTeX/bin/windows/mt"
+      - "C:/Users/hylee/.dotnet/tools/mt.com"
+      - "C:/Users/hylee/.dotnet/tools/mt.exe"
+      - "C:/Users/hylee/.dotnet/tools/mt"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/mt"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.19+164abd434 for .NET Framework
+      Build started 9/13/2025 3:37:53 PM.
+      
+      Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Users/hylee/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/cmds/lld-link.com"
+      - "C:/cmds/lld-link.exe"
+      - "C:/cmds/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "E:/manim/lld-link.com"
+      - "E:/manim/lld-link.exe"
+      - "E:/manim/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Users/hylee/.cargo/bin/lld-link.com"
+      - "C:/Users/hylee/.cargo/bin/lld-link.exe"
+      - "C:/Users/hylee/.cargo/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/lld-link.com"
+      - "C:/Users/hylee/anaconda3/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/lld-link"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/Library/bin/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Library/bin/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Library/bin/lld-link"
+      - "C:/Users/hylee/anaconda3/Scripts/lld-link.com"
+      - "C:/Users/hylee/anaconda3/Scripts/lld-link.exe"
+      - "C:/Users/hylee/anaconda3/Scripts/lld-link"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
+      - "C:/tools/TinyTeX/bin/windows/lld-link.com"
+      - "C:/tools/TinyTeX/bin/windows/lld-link.exe"
+      - "C:/tools/TinyTeX/bin/windows/lld-link"
+      - "C:/Users/hylee/.dotnet/tools/lld-link.com"
+      - "C:/Users/hylee/.dotnet/tools/lld-link.exe"
+      - "C:/Users/hylee/.dotnet/tools/lld-link"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/cmake_ext_libs/zenoh-cpp/bin/"
+      - "C:/cmake_ext_libs/zenoh-cpp/sbin/"
+      - "C:/cmake_ext_libs/zenoh-cpp/"
+      - "C:/cmake_ext_libs/zenoh-c/bin/"
+      - "C:/cmake_ext_libs/zenoh-c/sbin/"
+      - "C:/cmake_ext_libs/zenoh-c/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Users/hylee/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/cmds/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "E:/manim/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/hylee/.cargo/bin/"
+      - "C:/Users/hylee/anaconda3/"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/"
+      - "C:/Users/hylee/anaconda3/Library/bin/"
+      - "C:/Users/hylee/anaconda3/Scripts/"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/tools/TinyTeX/bin/windows/"
+      - "C:/Users/hylee/.dotnet/tools/"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/zenoh_example/bin/"
+      - "C:/Program Files/zenoh_example/sbin/"
+      - "C:/Program Files/zenoh_example/"
+    searched_directories:
+      - "C:/cmake_ext_libs/zenoh-cpp/bin/rc.com"
+      - "C:/cmake_ext_libs/zenoh-cpp/bin/rc.exe"
+      - "C:/cmake_ext_libs/zenoh-cpp/bin/rc"
+      - "C:/cmake_ext_libs/zenoh-cpp/sbin/rc.com"
+      - "C:/cmake_ext_libs/zenoh-cpp/sbin/rc.exe"
+      - "C:/cmake_ext_libs/zenoh-cpp/sbin/rc"
+      - "C:/cmake_ext_libs/zenoh-cpp/rc.com"
+      - "C:/cmake_ext_libs/zenoh-cpp/rc.exe"
+      - "C:/cmake_ext_libs/zenoh-cpp/rc"
+      - "C:/cmake_ext_libs/zenoh-c/bin/rc.com"
+      - "C:/cmake_ext_libs/zenoh-c/bin/rc.exe"
+      - "C:/cmake_ext_libs/zenoh-c/bin/rc"
+      - "C:/cmake_ext_libs/zenoh-c/sbin/rc.com"
+      - "C:/cmake_ext_libs/zenoh-c/sbin/rc.exe"
+      - "C:/cmake_ext_libs/zenoh-c/sbin/rc"
+      - "C:/cmake_ext_libs/zenoh-c/rc.com"
+      - "C:/cmake_ext_libs/zenoh-c/rc.exe"
+      - "C:/cmake_ext_libs/zenoh-c/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Users/hylee/AppData/Local/nvm/rc.com"
+      - "C:/Users/hylee/AppData/Local/nvm/rc.exe"
+      - "C:/Users/hylee/AppData/Local/nvm/rc"
+      - "C:/nvm4w/nodejs/rc.com"
+      - "C:/nvm4w/nodejs/rc.exe"
+      - "C:/nvm4w/nodejs/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/cmds/rc.com"
+      - "C:/cmds/rc.exe"
+      - "C:/cmds/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "E:/manim/rc.com"
+      - "E:/manim/rc.exe"
+      - "E:/manim/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/PowerShell/7/rc.com"
+      - "C:/Program Files/PowerShell/7/rc.exe"
+      - "C:/Program Files/PowerShell/7/rc"
+      - "C:/Users/hylee/.cargo/bin/rc.com"
+      - "C:/Users/hylee/.cargo/bin/rc.exe"
+      - "C:/Users/hylee/.cargo/bin/rc"
+      - "C:/Users/hylee/anaconda3/rc.com"
+      - "C:/Users/hylee/anaconda3/rc.exe"
+      - "C:/Users/hylee/anaconda3/rc"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/rc.com"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/rc.exe"
+      - "C:/Users/hylee/anaconda3/Library/mingw-w64/bin/rc"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/rc.com"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/rc.exe"
+      - "C:/Users/hylee/anaconda3/Library/usr/bin/rc"
+      - "C:/Users/hylee/anaconda3/Library/bin/rc.com"
+      - "C:/Users/hylee/anaconda3/Library/bin/rc.exe"
+      - "C:/Users/hylee/anaconda3/Library/bin/rc"
+      - "C:/Users/hylee/anaconda3/Scripts/rc.com"
+      - "C:/Users/hylee/anaconda3/Scripts/rc.exe"
+      - "C:/Users/hylee/anaconda3/Scripts/rc"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/hylee/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.com"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.exe"
+      - "C:/Users/hylee/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc"
+      - "C:/tools/TinyTeX/bin/windows/rc.com"
+      - "C:/tools/TinyTeX/bin/windows/rc.exe"
+      - "C:/tools/TinyTeX/bin/windows/rc"
+      - "C:/Users/hylee/.dotnet/tools/rc.com"
+      - "C:/Users/hylee/.dotnet/tools/rc.exe"
+      - "C:/Users/hylee/.dotnet/tools/rc"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/hylee/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/rc"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/hylee/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files/zenoh_example/bin/rc.com"
+      - "C:/Program Files/zenoh_example/bin/rc.exe"
+      - "C:/Program Files/zenoh_example/bin/rc"
+      - "C:/Program Files/zenoh_example/sbin/rc.com"
+      - "C:/Program Files/zenoh_example/sbin/rc.exe"
+      - "C:/Program Files/zenoh_example/sbin/rc"
+      - "C:/Program Files/zenoh_example/rc.com"
+      - "C:/Program Files/zenoh_example/rc.exe"
+      - "C:/Program Files/zenoh_example/rc"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/zenoh_example"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/zenoh_example"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-6yer8c"
+      binary: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-6yer8c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-6yer8c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ab4d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 9/13/2025 3:37:54 PM.
+        
+        Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yer8c\\cmTC_ab4d2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ab4d2.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yer8c\\Debug\\".
+          Creating directory "cmTC_ab4d2.dir\\Debug\\cmTC_ab4d2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ab4d2.dir\\Debug\\cmTC_ab4d2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ab4d2.dir\\Debug\\cmTC_ab4d2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ab4d2.dir\\Debug\\\\" /Fd"cmTC_ab4d2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ab4d2.dir\\Debug\\\\" /Fd"cmTC_ab4d2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yer8c\\Debug\\cmTC_ab4d2.exe" /INCREMENTAL /ILK:"cmTC_ab4d2.dir\\Debug\\cmTC_ab4d2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-6yer8c/Debug/cmTC_ab4d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-6yer8c/Debug/cmTC_ab4d2.lib" /MACHINE:X64  /machine:x64 cmTC_ab4d2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ab4d2.vcxproj -> E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yer8c\\Debug\\cmTC_ab4d2.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ab4d2.dir\\Debug\\cmTC_ab4d2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ab4d2.dir\\Debug\\cmTC_ab4d2.tlog\\cmTC_ab4d2.lastbuildstate".
+        Done Building Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6yer8c\\cmTC_ab4d2.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.96
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-9ghhi1"
+      binary: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-9ghhi1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-9ghhi1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63434.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.19+164abd434 for .NET Framework
+        Build started 9/13/2025 3:37:56 PM.
+        
+        Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ghhi1\\cmTC_63434.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_63434.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ghhi1\\Debug\\".
+          Creating directory "cmTC_63434.dir\\Debug\\cmTC_63434.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_63434.dir\\Debug\\cmTC_63434.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_63434.dir\\Debug\\cmTC_63434.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_63434.dir\\Debug\\\\" /Fd"cmTC_63434.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35215 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_63434.dir\\Debug\\\\" /Fd"cmTC_63434.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ghhi1\\Debug\\cmTC_63434.exe" /INCREMENTAL /ILK:"cmTC_63434.dir\\Debug\\cmTC_63434.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-9ghhi1/Debug/cmTC_63434.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/CMakeScratch/TryCompile-9ghhi1/Debug/cmTC_63434.lib" /MACHINE:X64  /machine:x64 cmTC_63434.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_63434.vcxproj -> E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ghhi1\\Debug\\cmTC_63434.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_63434.dir\\Debug\\cmTC_63434.tlog\\unsuccessfulbuild".
+          Touching "cmTC_63434.dir\\Debug\\cmTC_63434.tlog\\cmTC_63434.lastbuildstate".
+        Done Building Project "E:\\local_projects\\zenoh_projects\\zenoh_example\\pubsub_cpp_module\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ghhi1\\cmTC_63434.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:13 (find_package)"
+    name: "zenohc"
+    configs:
+      -
+        filename: "zenohcConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zenohc-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "zenohc"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/pkgRedirects/zenohcConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/pkgRedirects/zenohc-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-cpp/zenohcConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-cpp/zenohc-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-cpp/lib/cmake/zenohcxx/zenohcConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-cpp/lib/cmake/zenohcxx/zenohc-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-c/zenohcConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-c/zenohc-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/cmake_ext_libs/zenoh-c/lib/cmake/zenohc/zenohcConfig.cmake"
+      mode: "config"
+      version: "1.5.1"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/zenoh_example"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/zenoh_example"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:14 (find_package)"
+    name: "zenohcxx"
+    configs:
+      -
+        filename: "zenohcxxConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zenohcxx-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "zenohcxx"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/pkgRedirects/zenohcxxConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/CMakeFiles/pkgRedirects/zenohcxx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-cpp/zenohcxxConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/cmake_ext_libs/zenoh-cpp/zenohcxx-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/cmake_ext_libs/zenoh-cpp/lib/cmake/zenohcxx/zenohcxxConfig.cmake"
+      mode: "config"
+      version: "1.5.1"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/cmake_ext_libs/zenoh-cpp"
+        - "C:/cmake_ext_libs/zenoh-c"
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\cmds"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "E:\\manim"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Users\\hylee\\.cargo\\bin"
+        - "C:\\Users\\hylee\\anaconda3"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\usr\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Library\\bin"
+        - "C:\\Users\\hylee\\anaconda3\\Scripts"
+        - "C:\\Users\\hylee\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\hylee\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\hylee\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\tools\\TinyTeX\\bin\\windows"
+        - "C:\\Users\\hylee\\.dotnet\\tools"
+        - "c:\\Users\\hylee\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\hylee\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/zenoh_example"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/zenoh_example"
+...

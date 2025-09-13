@@ -1,0 +1,10 @@
+^E:\LOCAL_PROJECTS\ZENOH_PROJECTS\ZENOH_EXAMPLE\PUBSUB_CPP_MODULE\BUILD\CMAKEFILES\CB3711A1CC33EDF161B6936142277D15\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module -BE:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/zenoh_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

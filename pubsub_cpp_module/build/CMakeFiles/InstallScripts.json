@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
