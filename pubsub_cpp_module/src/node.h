@@ -24,6 +24,19 @@ public:
 
     const std::string& name() const { return _name; }  // NEW
 
+    // ---- Query server (queryable) management ----
+    // Synchronous handler: return the reply bytes for this query
+    using QueryHandler = std::function<std::vector<uint8_t>(
+        const std::string& key,
+        const std::string& parameters,
+        const std::vector<uint8_t>& payload)>;
+
+    // Declare a queryable "server" at `key`. Each incoming query calls `handler`,
+    // and we reply with its returned bytes.
+    void create_server(const std::string& key, QueryHandler handler);
+
+    // Undeclare a server for `key`.
+    void remove_server(const std::string& key);
 
     // ---- Publisher management ----
     bool has_publisher(const std::string& key) const;
@@ -44,6 +57,7 @@ private:
 
     std::unordered_map<std::string, std::shared_ptr<zenoh::Publisher>>        _publishers;
     std::unordered_map<std::string, std::shared_ptr<zenoh::Subscriber<void>>> _subscribers;
+    std::unordered_map<std::string, std::shared_ptr<zenoh::Queryable<void>>>  _servers;
 
     mutable std::mutex _mx;
 

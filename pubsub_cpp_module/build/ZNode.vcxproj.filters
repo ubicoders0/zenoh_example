@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\local_projects\zenoh_projects\zenoh_example\pubsub_cpp_module\src\Node.cpp">
+    <ClCompile Include="E:\local_projects\zenoh_projects\zenoh_example\pubsub_cpp_module\src\node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="E:\local_projects\zenoh_projects\zenoh_example\pubsub_cpp_module\src\zenoh_unity_wrapper.cpp">

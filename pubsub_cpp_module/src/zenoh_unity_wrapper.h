@@ -51,6 +51,41 @@ ZU_API int32_t ZU_CreateSubscriber(ZU_NodeHandle node, const char* key,
                                    ZU_MessageCallback cb, void* user_data);
 ZU_API int32_t ZU_RemoveSubscriber(ZU_NodeHandle node, const char* key);
 
+// ---- Query Server (Queryable) ----------------------------------------------
+// Callback invoked on a background thread when a query arrives.
+// DO NOT touch Unity APIs here—queue to main thread and finish via ZU_CompleteRequest / ZU_FailRequest.
+typedef void (ZU_CALL *ZU_QueryCallback)(
+    uint64_t request_id,
+    const char* key_expr,
+    const uint8_t* payload, int32_t payload_len,
+    const char* parameters,
+    void* user_data);
+
+// Declare a server (queryable) for `key_expr`. The native side waits up to `timeout_ms`
+// for ZU_CompleteRequest / ZU_FailRequest. On timeout, the client gets an error.
+ZU_API int32_t ZU_CreateServer(
+    ZU_NodeHandle node,
+    const char* key_expr,
+    ZU_QueryCallback cb,
+    void* user_data,
+    int32_t timeout_ms /* e.g., 3000 */);
+
+ZU_API int32_t ZU_RemoveServer(ZU_NodeHandle node, const char* key_expr);
+
+// Finish a pending request successfully (send reply bytes).
+ZU_API int32_t ZU_CompleteRequest(
+    ZU_NodeHandle node,
+    uint64_t request_id,
+    const uint8_t* bytes,
+    int32_t len);
+
+// Fail a pending request.
+ZU_API int32_t ZU_FailRequest(
+    ZU_NodeHandle node,
+    uint64_t request_id,
+    const char* message);
+
+
 #ifdef __cplusplus
 } // extern "C"
 #endif

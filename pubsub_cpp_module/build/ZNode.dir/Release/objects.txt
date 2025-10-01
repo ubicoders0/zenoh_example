@@ -1,0 +1,2 @@
+E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/ZNode.dir/Release/node.obj
+E:/local_projects/zenoh_projects/zenoh_example/pubsub_cpp_module/build/ZNode.dir/Release/zenoh_unity_wrapper.obj

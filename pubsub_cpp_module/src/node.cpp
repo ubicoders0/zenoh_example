@@ -1,4 +1,4 @@
-#include "Node.h"
+#include "node.h"
 #include <stdexcept>
 
 using namespace zenoh;
@@ -23,6 +23,57 @@ void Node::shutdown() {
     _subscribers.clear(); // undeclare before session dies
     _publishers.clear();
 }
+
+void ubicoders_zenoh::Node::create_server(const std::string& key, QueryHandler handler) {
+    std::lock_guard<std::mutex> lock(_mx);
+    if (_servers.count(key)) return;
+
+    auto qable = std::make_shared<Queryable<void>>(
+        _session.declare_queryable(
+            make_keyexpr(key),
+            // Per-query callback (runs on a zenoh thread)
+            [this, key, handler](const Query& q) {
+                try {
+                    // Extract payload (optional)
+                    std::vector<uint8_t> in;
+                    if (auto pl = q.get_payload()) {
+                        // Bytes -> std::string (binary-safe), then to vector<uint8_t>
+                        const std::string bin = pl->get().as_string();
+                        in.assign(bin.begin(), bin.end());
+                    }
+                    // Parameters (string_view -> string)
+                    std::string params(q.get_parameters());
+
+                    // Produce reply and send
+                    std::vector<uint8_t> out = handler(key, params, in);
+                    q.reply(make_keyexpr(key), zenoh::Bytes(out), zenoh::Query::ReplyOptions{});
+                } catch (const std::exception& e) {
+                    const std::string emsg = std::string("error: ") + e.what();
+                    std::vector<uint8_t> eb(emsg.begin(), emsg.end());
+                    q.reply_err(zenoh::Bytes(eb), zenoh::Query::ReplyErrOptions{});
+                } catch (...) {
+                    const std::string emsg = "error";
+                    std::vector<uint8_t> eb(emsg.begin(), emsg.end());
+                    q.reply_err(zenoh::Bytes(eb), zenoh::Query::ReplyErrOptions{});
+                }
+            },
+            closures::none
+        )
+    );
+
+    _servers.emplace(key, std::move(qable));
+}
+
+
+void ubicoders_zenoh::Node::remove_server(const std::string& key) {
+    std::lock_guard<std::mutex> lock(_mx);
+    auto it = _servers.find(key);
+    if (it != _servers.end()) {
+        it->second.reset(); // undeclare
+        _servers.erase(it);
+    }
+}
+
 
 KeyExpr Node::make_keyexpr(const std::string& key) {
     return KeyExpr(key.c_str());
